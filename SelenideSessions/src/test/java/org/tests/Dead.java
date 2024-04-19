@@ -6,6 +6,7 @@ public class Dead {
 	{
 		System.out.println("hi ojhojhojoj");
 
+		System.out.println("iojhj");
 
 	}
 
