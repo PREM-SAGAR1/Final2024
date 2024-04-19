@@ -1,6 +1,8 @@
 package demoGit;
 
-public class GitDay1 {
+public class GitDay1 
+{
+	int x= 100,y=200;
 
 	
 	int a= 10,b=10;
