@@ -9,6 +9,8 @@ public class Dead {
 		System.out.println("iojhj");
 		
 		System.out.println("hey");
+		
+		System.out.println("hi");
 
 	}
 
