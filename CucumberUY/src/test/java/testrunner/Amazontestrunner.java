@@ -1,4 +1,4 @@
-package testrunners;
+package testrunner;
 
 import org.junit.runner.RunWith;
 
@@ -7,15 +7,14 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"src/test/resources/AppFeatures/registration.feature"},
+		features = {"src/test/java/AppFeatures/Search24.feature"},
 		glue= {"stepDefinitions"},
-		plugin= {"pretty",
+		plugin = {"pretty",
 				"json:target/MyReports/report.json",
-				"junit:target/MyReports/report.xml",
-				
-				},
-		monochrome=true
+				"junit:target/MyReports/report.xml"},
+	   monochrome =true,
+	   dryRun = true
 		)
-public class UserRegTest {
+public class Amazontestrunner {
 
 }
